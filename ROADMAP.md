@@ -1,32 +1,34 @@
 # Roadmap
 
 ## Repo Prep
-- [ ] Freeze engine-only folder layout
-- [ ] Add Bun TypeScript package spine
-- [ ] Add strict typecheck and test scripts
-- [ ] Add JSON data loading and validation path
-- [ ] Define stable internal IDs and enums
+- [x] Freeze engine-only folder layout
+- [x] Add Bun TypeScript package spine
+- [x] Add strict typecheck and test scripts
+- [x] Add JSON data loading and validation path
+- [x] Define stable internal IDs and enums
 
 ## Core Engine
-- [ ] Create game state model
-- [ ] Define action model
-- [ ] Build deterministic reducer entrypoint
-- [ ] Split board, player, card, quantum, win modules
-- [ ] Load board and card config from data
+- [x] Create game state model
+- [x] Define action model
+- [x] Build deterministic reducer entrypoint
+- [x] Split board, player, card, quantum, win modules
+- [x] Load board and card config from data
+- [x] Add initial game state factory
+- [x] Add basic state helpers: draw, discard, move, swap
 
 ## Rules Coverage
-- [ ] Setup flow
-- [ ] Movement flow
-- [ ] Retrieval flow
-- [ ] Quantum event flow
-- [ ] Win/loss checks
+- [x] Setup flow
+- [x] Movement flow
+- [x] Retrieval flow
+- [x] Quantum event flow
+- [x] Win/loss checks
 
 ## Tests
-- [ ] Setup scenario test
-- [ ] Movement scenario test
-- [ ] Retrieval scenario test
-- [ ] Event scenario test
-- [ ] Regression tests for rule fixes
+- [x] Setup scenario test
+- [x] Movement scenario test
+- [x] Retrieval scenario test
+- [x] Event scenario test
+- [x] Regression tests for rule fixes
 
 ## Later
 - [ ] Add web app shell

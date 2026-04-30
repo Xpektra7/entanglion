@@ -9,9 +9,9 @@ Goal:
 - UI later, mapped onto engine state
 
 Current focus:
-- scaffold core engine structure
-- define state, actions, and data model
+- define core engine state and reducer flow
 - keep board, cards, quantum rules, and win conditions separate
+- add rule coverage one module at a time
 
 Original Entanglion created by IBM Research.
 Design: Maryam Ashoori, Justin D. Weisz

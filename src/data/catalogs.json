@@ -1,0 +1,38 @@
+{
+  "boardLocations": [
+    { "galaxy": "centarious", "location": "zero" },
+    { "galaxy": "centarious", "location": "one" },
+    { "galaxy": "superious", "location": "plus" },
+    { "galaxy": "superious", "location": "minus" },
+    { "galaxy": "entanglion", "location": "omega-zero" },
+    { "galaxy": "entanglion", "location": "omega-one" },
+    { "galaxy": "entanglion", "location": "omega-two" },
+    { "galaxy": "entanglion", "location": "omega-three" },
+    { "galaxy": "entanglion", "location": "phi-plus" },
+    { "galaxy": "entanglion", "location": "phi-minus" },
+    { "galaxy": "entanglion", "location": "psi-plus" },
+    { "galaxy": "entanglion", "location": "psi-minus" }
+  ],
+  "engineCards": ["x", "h", "swap", "cnot", "probe"],
+  "eventCards": [
+    "bennett",
+    "bit-flip-error",
+    "heisenberg",
+    "quantum-shuffle",
+    "quantum-tunnel",
+    "schrodinger",
+    "spooky-action",
+    "the-mechanic",
+    "wave-function-collapse"
+  ],
+  "quantumComponents": [
+    "physical-qubits",
+    "qubit-interconnect",
+    "dilution-refrigerator",
+    "quantum-gates",
+    "quantum-programming",
+    "quantum-error-correction",
+    "control-infrastructure",
+    "magnetic-shielding"
+  ]
+}
