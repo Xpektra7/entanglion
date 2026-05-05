@@ -96,7 +96,11 @@ export type PlayEventAction = {
   probeReroll?: number;
 };
 
-export type GameAction = NavigateAction | ExchangeAction | RetrieveAction | PlayEventAction;
+export type GameAction =
+  | NavigateAction
+  | ExchangeAction
+  | RetrieveAction
+  | PlayEventAction;
 
 export type DetectionRate = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8;
 

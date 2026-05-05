@@ -20,7 +20,7 @@ import type {
 } from "../../types/index.ts";
 
 export type CreateGameStateInput = {
-  currentPlayerId?: PlayerId;
+  currentPlayerId?: Playereturn resolveQuantumComponentDrop(state, shipId, componentId, roll);rId;
   detectionRate?: DetectionRate;
   pendingFreeAction?: GameState["pendingFreeAction"];
   players?: Record<PlayerId, PlayerState>;

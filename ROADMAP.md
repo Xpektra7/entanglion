@@ -31,6 +31,13 @@
 - [x] Regression tests for rule fixes
 
 ## Later
-- [ ] Add web app shell
+- [x] Add web app shell
+- [x] Add app bootstrap
+- [x] Add routing
+- [x] Add engine state adapter for UI
 - [ ] Add PixiJS presentation layer
+- [ ] Add board view and ship sprites
+- [ ] Add card hand and turn UI
 - [ ] Add Zustand state bridge
+- [ ] Add UI-to-engine action dispatch
+- [ ] Add browser playtest loop
